@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:simple_logger/simple_logger.dart';
+
+final logger = SimpleLogger();
 
 void main() {
+  const flavor = String.fromEnvironment('FLAVOR');
+  logger.info('FLAVOR is $flavor');
   runApp(
     const MyApp(),
   );
