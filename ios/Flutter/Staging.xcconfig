@@ -1,0 +1,2 @@
+FLAVOR=staging
+APP_ID_SUFFIX=.stg
