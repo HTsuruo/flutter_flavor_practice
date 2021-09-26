@@ -27,9 +27,15 @@ dependencies:
   simple_logger:
 
 dev_dependencies:
+  flutter_launcher_icons:
   flutter_test:
     sdk: flutter
   pedantic_mono:
+
+
+flutter_icons:
+  android: true
+  ios: true
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,0 +1,8 @@
+# ref. https://pub.dev/packages/flutter_launcher_icons#book-guide
+# `flutter_launcher_icons`を元にそれぞれのflavorごとのアイコンを作成する
+# property ref. https://pub.dev/packages/flutter_launcher_icons#mag-attributes
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/icon_development.png"
