@@ -1,12 +1,14 @@
 buildscript {
-    ext.kotlin_version = '1.3.50'
+    // ref. https://kotlinlang.org/docs/releases.html#release-details
+    ext.kotlin_version = '1.6.10'
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0'
+        // ref. https://developer.android.com/studio/releases/gradle-plugin?hl=ja#updating-plugin
+        classpath 'com.android.tools.build:gradle:4.2.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
