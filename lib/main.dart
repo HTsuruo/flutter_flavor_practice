@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor_practice/flavor.dart';
+import 'package:flutter_flavor_practice/flavor_provider.dart';
 import 'package:flutter_flavor_practice/package_info_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:package_info_plus/package_info_plus.dart';
