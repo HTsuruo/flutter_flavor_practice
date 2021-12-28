@@ -11,7 +11,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   const flavorString = String.fromEnvironment('FLAVOR');
   final flavor = Flavor.values.byName(flavorString);
-  logger.info('FLAVOR is $flavor');
+  logger.info('FLAVOR is [${flavor.name}]');
   late final PackageInfo packageInfo;
   await Future.wait<void>([
     Future(() async {
